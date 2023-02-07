@@ -27,21 +27,88 @@
   padding: 0.1rem 1rem;
 }
 
+.main-menu {
+  margin-bottom: 0;
+}
 .main-menu li {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   list-style: none;
   display: inline;
 }
-
-.icon-sm {
-  width: 4rem;
-  height: 4rem;
-  padding: 0.25rem;
-  border-radius: 50%;
-  border: 1px solid black;
+.main-menu a {
+  color: #000;
+  text-decoration: none;
 }
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
 .icon-sm i {
   color: #0075FF;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  border: 0 0 10px #000;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  margin-top: 3rem;
+  color: #0075FF;
+  font-weight: 600;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 7rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
